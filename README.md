@@ -1,0 +1,3 @@
+The purpose of a mains AC Dropout Timer is to make a bumpless start and stop of an Valve Preamplifier. The Power on Sound relay shortcircuits the output of the Volume control potensiometer which is connected to the Relay in series with a current rush protective resistor. 
+
+By doing a 20 seconds delay of the Relay initialization, the Amplifier is stable and warmed up when the Poweramplifier connects to the Preamplifier. The Relay allso disconnects the Preamplifier output by shortcircuit the Volume potensiometer at power down. This is done by monitoring the AC Powersupply for AC Dropouts. The timeout for this is about 52 milliseconds.
